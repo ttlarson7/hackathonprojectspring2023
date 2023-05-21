@@ -223,7 +223,7 @@ app.post("/verifyAnswers", protectRoute, function(req, res) {
 					sum += value[0]
 
 					if (value[0] === 0) {
-						wrongAnswers.append(value[1])
+						wrongAnswers.push(value[1])
 					}
 
 				})

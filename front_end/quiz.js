@@ -106,6 +106,8 @@ function printScore(score, wrongAnswers, quizSet) {
     alertText += "\n Question " + i + ": " + quizSet[wrongAnswers[i]]
   }
 
+  alert(alertText)
+
   window.location.href = "/home"
 }
 
