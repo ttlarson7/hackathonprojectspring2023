@@ -20,7 +20,7 @@ var sets = JSON.parse(fs.readFileSync("sets.json"))
 
 const { Configuration, OpenAIApi } = require("openai")
 
-var API_KEY = "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"
+var API_KEY = ""
 
 const configuration = new Configuration({
 	apiKey: API_KEY
